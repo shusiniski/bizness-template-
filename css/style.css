@@ -1,0 +1,127 @@
+*,html,body
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	height: 3000px;
+}
+
+
+/*navigation*/
+header
+{
+	/*background-color: #0c191d /*deepskyblue*/;*/
+	height: 112px;
+	line-height: 112px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+.secondary
+{
+	background-color: #0c191d /*deepskyblue*/;
+	box-shadow: 0px 0px 17px 0px;
+	transition: all 0.5s ease-in;
+}
+
+ul
+{
+	list-style: none;
+	
+}
+ul li
+{
+	display: inline-block;
+}
+
+header nav
+{
+	float: right;
+}
+
+/*Logo*/
+.logo img
+{
+	margin-top: 3px;
+}
+header nav ul li a
+{
+	padding-right: 30px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.5s ease-in; 
+}
+header nav ul li a:hover
+{
+	text-decoration: none;
+	color: #2c8afb;
+}
+
+/*slider*/
+.img1
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..//image/slider1.jpg);
+	background-size: 100% 100%;
+}
+.img2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..//image/slider2.jpg);
+	background-size: 100% 100%;
+}
+.img3
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..//image/slider3.jpg);
+	background-size: 100% 100%;
+}
+.slider,.slider ul,.slider ul li
+{
+	height: 718px;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.slider h2
+{
+	font-weight: bold;
+	margin-top: 270px;
+}
+.slider span
+{
+	color: orange;
+}
+
+.slider a 
+{
+	padding: 10px 50px;
+	margin-right: 10px;
+
+}
+.slider a.btn-half
+{
+	background-color: #337ab7;
+	color: white;
+	transition: 0.5s ease-in;
+}
+.slider a.btn-half:hover
+{
+	background-color: dodgerblue;
+}
+
+.slider a.btn-full
+{
+	background-color: orange;
+	color: white;
+	transition: 0.5s ease-in;
+}
+.slider a.btn-full:hover
+{
+	background-color: #e67e22;
+}
+
+.slider i
+{
+	font-size: 35px;
+	margin-right: 10px;
+}
